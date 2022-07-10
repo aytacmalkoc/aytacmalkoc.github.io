@@ -2,10 +2,10 @@
   "name": "aytacmalkoc.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://aytacmalkoc.github.io/aytacmalkoc.github.io",
+  "homepage": "https://aytacmalkoc.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
