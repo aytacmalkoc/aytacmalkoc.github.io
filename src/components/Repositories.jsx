@@ -43,10 +43,10 @@ export default function Repositories() {
         }`
 
         request({
-            url: import.meta.env.VITE_GITHUB_API_URL,
+            url: import.meta.env.secrets.VITE_GITHUB_API_URL,
             document: query,
             requestHeaders: {
-                Authorization: `Bearer ${import.meta.env.VITE_GITHUB_ACCESS_TOKEN}`
+                Authorization: `Bearer ${import.meta.env.secrets.VITE_GITHUB_ACCESS_TOKEN}`
             }
         }).then(data => setRepositories(data.user.pinnedItems.edges))
     }
