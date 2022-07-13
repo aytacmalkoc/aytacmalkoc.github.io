@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src',
+      '@': './src',
       'node-fetch': 'node-fetch/browser.js',
     },
     extensions: ['.jsx', '.js'],
