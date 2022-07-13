@@ -7,6 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       'node-fetch': 'node-fetch/browser.js',
-    }
+    },
+    extensions: ['.jsx', '.js'],
   }
 })
