@@ -1,13 +1,15 @@
 import React from 'react'
 
 // components
-import Hero from './Hero'
-import Footer from './Footer'
-import Repositories from './Repositories'
-import Experiences from './Experiences'
-import Skills from './Skills'
-import BackTop from './BackTop'
-import Educations from './Educations'
+import {
+    Hero,
+    Repositories,
+    Skills,
+    Educations,
+    Experiences,
+    Footer,
+    BackTop,
+} from './index'
 
 // global styles
 import '../assets/css/app.css'
