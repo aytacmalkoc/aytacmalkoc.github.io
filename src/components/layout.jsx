@@ -14,7 +14,7 @@ import {
 // global styles
 import '../assets/css/app.css'
 
-export default function layout({ children }) {
+export default function Layout() {
 
     return (
         <>
@@ -28,8 +28,6 @@ export default function layout({ children }) {
                 <Educations />
 
                 <Experiences />
-
-                {children}
             </main>
 
             <Footer />
