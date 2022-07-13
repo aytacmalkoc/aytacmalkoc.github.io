@@ -12,7 +12,7 @@ import {
 } from './index'
 
 // global styles
-import '@/assets/css/app.css'
+import '../assets/css/app.css'
 
 export default function layout({ children }) {
 

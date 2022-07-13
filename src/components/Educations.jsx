@@ -1,5 +1,5 @@
 import React from 'react'
-import transcript from '@/assets/files/transcript.pdf'
+import transcript from '../assets/files/transcript.pdf'
 
 export default function Educations() {
 
