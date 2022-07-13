@@ -3,7 +3,7 @@ import React from 'react'
 // components
 import Hero from './Hero'
 import Footer from './Footer'
-// import Repositories from './Repositories'
+import Repositories from './Repositories'
 import Experiences from './Experiences'
 import Skills from './Skills'
 import BackTop from './BackTop'
@@ -19,7 +19,7 @@ export default function layout({ children }) {
             <main className="vea-main-content">
                 <Hero />
 
-                {/* <Repositories /> */}
+                <Repositories />
 
                 <Skills />
 
