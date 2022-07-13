@@ -1,14 +1,14 @@
 import React from 'react'
 
 // logos
-import laravelLogo from '../assets/images/laravel-logo.png'
-import expressLogo from '../assets/images/express-logo.png'
-import strapiLogo from '../assets/images/strapi-logo.png'
-import reactLogo from '../assets/images/react-logo.png'
-import vueLogo from '../assets/images/vue-logo.png'
-import wordpressLogo from '../assets/images/wordpress-logo.png'
-import mysqlLogo from '../assets/images/mysql-logo.png'
-import mongodbLogo from '../assets/images/mongodb-logo.png'
+import laravelLogo from '@/assets/images/laravel-logo.png'
+import expressLogo from '@/assets/images/express-logo.png'
+import strapiLogo from '@/assets/images/strapi-logo.png'
+import reactLogo from '@/assets/images/react-logo.png'
+import vueLogo from '@/assets/images/vue-logo.png'
+import wordpressLogo from '@/assets/images/wordpress-logo.png'
+import mysqlLogo from '@/assets/images/mysql-logo.png'
+import mongodbLogo from '@/assets/images/mongodb-logo.png'
 
 export default function Skills() {
     return (
