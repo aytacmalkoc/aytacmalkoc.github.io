@@ -11,8 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "contrast": "^1.0.1",
+    "github-lang-colors": "^1.0.4",
     "graphql": "^16.5.0",
     "graphql-request": "^4.3.0",
+    "octokit": "^2.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
