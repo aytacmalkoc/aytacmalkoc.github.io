@@ -57,7 +57,7 @@ cp .env.example .env
 
 - [ ] Add Google Analytics.
 - [ ] Add a 404 page.
-- [ ] Add download resume button.
+- [x] Add download resume button.
 - [ ] Add a contact section.
 - [ ] Update the useStorage hook to run time dependent.
 - [ ] Fix responsive design issues.
