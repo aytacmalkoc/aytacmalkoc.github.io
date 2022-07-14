@@ -1,12 +1,8 @@
 import React from 'react'
+import { openFile } from '../helpers'
 import transcript from '../assets/files/transcript.pdf'
 
 export default function Educations() {
-
-    const downloadFile = () => {
-        window.open(transcript, '_blank')
-    }
-
     return (
         <div className="vea-experiences vea-experiences-4 sec-spacer">
             <div className="container">
@@ -27,7 +23,7 @@ export default function Educations() {
                                     <h4>Isparta University of Applied Sciences</h4>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <p>Computer Programming Pr. - Cumulative GPA: 2.95</p>
-                                        <button className="btn btn-outline-dark" onClick={() => downloadFile()}>Download Transcript</button>
+                                        <button className="btn btn-outline-dark" onClick={() => openFile(transcript)}>Download Transcript</button>
                                     </div>
                                 </div>
                             </div>

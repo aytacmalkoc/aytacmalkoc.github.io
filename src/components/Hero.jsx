@@ -1,4 +1,6 @@
 import React from 'react'
+import { openFile } from '../helpers'
+import resume from '../assets/files/resume.pdf'
 
 export default function Hero() {
 
@@ -33,6 +35,7 @@ export default function Hero() {
                                 <a href="mailto:aytacmalkoc@protonmail.com" className="social-link" aria-label="aytacmalkoc@protonmail.com">
                                     <i className="fa-solid fa-envelope"></i>
                                 </a>
+                                <button onClick={() => openFile(resume)} className="social-link btn btn-outline-dark">Download Resume</button>
                             </div>
                         </div>
                     </div>
