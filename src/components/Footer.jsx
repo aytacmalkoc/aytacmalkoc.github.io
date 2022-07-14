@@ -1,23 +1,23 @@
 import React from 'react'
+import { socialMediaLinks } from '../constants'
 
 export default function Footer() {
     return (
         <footer className="vea-footer footer-2">
             <div className="container">
                 <div className="footer-about text-lg-center">
-                    <a href="mailto:aytacmalkoc@protonmail.com" className="wow fadeInUp">
-                        <h5>aytacmalkoc@protonmail.com</h5>
-                    </a>
+                    <h5>
+                        <a href="https://www.github.com/aytacmalkoc/aytacmalkoc.github.io" target={'_blank'}>
+                            Bu projeyi geliştirmeye katkıda bulunun <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </h5>
                     <div className="footer-social-links wow fadeInUp">
-                        <a href="https://www.github.com/aytacmalkoc" className="social-link" aria-label="twitter" target={'_blank'}>
-                            <i className="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://www.twitter.com/jrd_aytacmalkoc" className="social-link" aria-label="dribble" target={'_blank'}>
-                            <i className="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="https://www.instagram.com/aytacmalkoc35" className="social-link" aria-label="behance" target={'_blank'}>
-                            <i className="fa-brands fa-instagram"></i>
-                        </a>
+                        {socialMediaLinks.map(socialMedia => (
+                            <a href={socialMedia.url} className="social-link" aria-label={socialMedia.label} title={socialMedia.label} target={'_blank'} key={socialMedia.id}>
+                                <i className={socialMedia.icon}></i>
+                            </a>
+                        ))}
                     </div>
                 </div>
             </div>

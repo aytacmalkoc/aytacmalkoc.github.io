@@ -1,5 +1,6 @@
 import React from 'react'
 import { openFile } from '../helpers'
+import { socialMediaLinks } from '../constants'
 import resume from '../assets/files/resume.pdf'
 
 export default function Hero() {
@@ -23,18 +24,11 @@ export default function Hero() {
                     <div className="row">
                         <div className="col-12">
                             <div className="banner-cont-links wow fadeInUp">
-                                <a href="https://www.github.com/aytacmalkoc" className="social-link" aria-label="twitter" target={'_blank'}>
-                                    <i className="fa-brands fa-github"></i>
-                                </a>
-                                <a href="https://www.twitter.com/jrd_aytacmalkoc" className="social-link" aria-label="dribble" target={'_blank'}>
-                                    <i className="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="https://www.instagram.com/aytacmalkoc35" className="social-link" aria-label="behance" target={'_blank'}>
-                                    <i className="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="mailto:aytacmalkoc@protonmail.com" className="social-link" aria-label="aytacmalkoc@protonmail.com">
-                                    <i className="fa-solid fa-envelope"></i>
-                                </a>
+                                {socialMediaLinks.map(socialMedia => (
+                                    <a href={socialMedia.url} className="social-link" aria-label={socialMedia.label} title={socialMedia.label} target={'_blank'} key={socialMedia.id}>
+                                        <i className={socialMedia.icon}></i>
+                                    </a>
+                                ))}
                                 <button onClick={() => openFile(resume)} className="social-link btn btn-outline-dark">Download Resume</button>
                             </div>
                         </div>
