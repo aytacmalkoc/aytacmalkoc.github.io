@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "no-console": 1,
+        "prettier/prettier": 2,
+        "react/react-in-jsx-scope": "off"
+    }
+}
