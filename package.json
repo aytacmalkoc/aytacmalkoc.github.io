@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aytacmalkoc/react-use-storage": "^1.0.4",
     "contrast": "^1.0.1",
     "github-lang-colors": "^1.0.4",
     "octokit": "^2.0.3",
