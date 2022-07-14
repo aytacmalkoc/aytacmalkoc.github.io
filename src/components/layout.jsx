@@ -1,38 +1,29 @@
-import React from 'react'
+import React from 'react';
 
 // components
-import {
-    Hero,
-    Repositories,
-    Skills,
-    Educations,
-    Experiences,
-    Footer,
-    BackTop,
-} from './index'
+import { Hero, Repositories, Skills, Educations, Experiences, Footer, BackTop } from './index';
 
 // global styles
-import '../assets/css/app.css'
+import '../assets/css/app.css';
 
 export default function Layout() {
+  return (
+    <>
+      <main className="vea-main-content">
+        <Hero />
 
-    return (
-        <>
-            <main className="vea-main-content">
-                <Hero />
+        <Repositories />
 
-                <Repositories />
+        <Skills />
 
-                <Skills />
+        <Educations />
 
-                <Educations />
+        <Experiences />
+      </main>
 
-                <Experiences />
-            </main>
+      <Footer />
 
-            <Footer />
-
-            <BackTop />
-        </>
-    )
+      <BackTop />
+    </>
+  );
 }
