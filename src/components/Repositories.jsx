@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useStorage } from '../hooks/useStorage'
+import { useStorage } from '@aytacmalkoc/react-use-storage'
 import getColor from 'github-lang-colors'
 import { Octokit } from 'octokit'
 
