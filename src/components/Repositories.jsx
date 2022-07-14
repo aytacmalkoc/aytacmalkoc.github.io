@@ -8,7 +8,7 @@ import RepositoryItem from './RepositoryItem'
 export default function Repositories() {
 
     const [repositories, setRepositories] = useState([])
-    const [cachedRepositories, setCachedRepositories] = useStorage('repositories')
+    const [cachedRepositories, setCachedRepositories] = useStorage('repositories', true)
 
     const fetchRepositories = async () => {
 
@@ -24,7 +24,7 @@ export default function Repositories() {
             await octokit.rest.repos.listForUser({
                 username: 'aytacmalkoc',
                 sort: 'updated',
-                per_page: 6,
+                per_page: 7,
                 page: 1
             }).then((res) => {
                 res.data.forEach(repo => {
