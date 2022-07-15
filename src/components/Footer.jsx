@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-about text-lg-center">
           <h5>
             <a href="https://www.github.com/aytacmalkoc/aytacmalkoc.github.io" target={'_blank'}>
-              Bu projeyi geliştirmeye katkıda bulunun{' '}
+              Contribute to improving this page{' '}
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </h5>
