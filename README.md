@@ -32,6 +32,26 @@ You can follow the steps below to deploy manually.
 ```bash
 npm run deploy
 ```
+## Formatting
+
+### 📝 Lint
+
+```bash
+yarn lint
+```
+
+### 👀 Watch changes
+
+```bash
+yarn prettier-watch
+```
+
+### ✒️ Format Document
+
+```bash
+yarn prettier-format
+```
+
 
 ## Octokit Usage
 
@@ -41,16 +61,16 @@ I used the Octokit package as public. If you are going to use it with auth, plea
 cp .env.example .env
 ```
 
-
 ## Dependencies
 
-| **Package**        | **Version** |
-|--------------------|-------------|
-| contrast           | 1.0.1       |
-| github-lang-colors | 1.0.4       |
-| octokit            | 2.0.3       |
-| gh-pages           | 4.0.0       |
-
+| **Package**                     | **Version** |
+|---------------------------------|-------------|
+| contrast                        | 1.0.1       |
+| github-lang-colors              | 1.0.4       |
+| octokit                         | 2.0.3       |
+| gh-pages                        | 4.0.0       |
+| @aytacmallkoc/react-use-storage | 1.0.4       |
+| react-ga                        | 3.3.1       |
 
 
 ## TODOS
