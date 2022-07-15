@@ -85,6 +85,7 @@ cp .env.example .env
 - [ ] Update the useStorage hook to run time dependent.
 - [ ] Fix responsive design issues.
 - [ ] Setting up purge css package.
+- [ ] Fix purgecss issues.
 
 ## License
 The MIT License (MIT). Please see [License File](https://github.com/aytacmalkoc/aytacmalkoc.github.io/blob/main/LICENSE.md) for more information.
