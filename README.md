@@ -2,6 +2,8 @@
 
 This repository contains the source codes of my personal web page. Available as open source subject to license terms. Please contribute to fix bugs and improve the application.
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/aytacmalkoc)
+
 
 ## Installation
 
