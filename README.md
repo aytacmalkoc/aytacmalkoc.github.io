@@ -73,6 +73,7 @@ cp .env.example .env
 | gh-pages                        | 4.0.0       |
 | @aytacmallkoc/react-use-storage | 1.0.4       |
 | react-ga                        | 3.3.1       |
+| vite-plugin-html-purgecss       | 0.1.1       |
 
 
 ## TODOS
