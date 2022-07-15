@@ -55,7 +55,7 @@ cp .env.example .env
 
 ## TODOS
 
-- [ ] Add Google Analytics.
+- [x] Add Google Analytics.
 - [ ] Add a 404 page.
 - [x] Add download resume button.
 - [ ] Add a contact section.
