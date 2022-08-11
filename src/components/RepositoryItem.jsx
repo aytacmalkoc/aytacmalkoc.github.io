@@ -32,11 +32,9 @@ export default function RepositoryItem({ repository }) {
         </div>
 
         <div className="d-flex justify-content-between align-items-center">
-          {repository.description ? (
-            <p className="card-text text-muted">{repository.description}</p>
-          ) : (
-            <p className="card-text text-muted">No description</p>
-          )}
+          <p className="card-text text-muted">
+            <em>{repository.description ? repository.description : 'No description'}</em>
+          </p>
           <span
             className="badge p-2"
             style={{ backgroundColor: repository.language.color, color: languageColor }}
