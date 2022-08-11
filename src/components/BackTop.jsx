@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { scrollTo } from '../helpers';
 
 export default function BackTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -7,17 +8,10 @@ export default function BackTop() {
 
   window.addEventListener('scroll', toggleVisible);
 
-  const goTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
-
   return (
     <div
       id="toTop"
-      onClick={() => goTop()}
+      onClick={() => scrollTo('top', 0)}
       style={{
         display: isVisible ? 'block' : 'none'
       }}
