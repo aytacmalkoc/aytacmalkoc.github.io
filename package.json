@@ -1,10 +1,10 @@
 {
   "name": "aytacmalkoc.github.io",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://aytacmalkoc.github.io",
   "scripts": {
-    "predeploy": "npm run build && cp CNAME dist/CNAME",
+    "predeploy": "rm -rf dist && npm run build && cp CNAME dist/CNAME",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +19,7 @@
     "contrast": "^1.0.1",
     "github-lang-colors": "^1.0.4",
     "octokit": "^2.0.3",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-ga": "^3.3.1"
