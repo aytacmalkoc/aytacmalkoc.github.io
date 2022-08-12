@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
       </div>
       <div
-        className="scroll-dwn d-flex justify-content-center align-items-center"
+        className="scroll-dwn d-none d-lg-flex justify-content-center align-items-center"
         onClick={() => scrollTo('top', window.innerHeight)}
       >
         <i className="fa-solid fa-arrow-down fa-2x"></i>

@@ -21,7 +21,7 @@ export default function Skills() {
                   <div className="experience-details">
                     <div className="row align-items-center">
                       {skills[key].map((skill) => (
-                        <div className="col-lg-4" key={skill.id}>
+                        <div className="col-6 col-md-4 col-lg-4" key={skill.id}>
                           <img src={skill.image} alt={skill.name} width={150} />
                         </div>
                       ))}
