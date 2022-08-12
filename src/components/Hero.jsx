@@ -1,16 +1,9 @@
 import React from 'react';
-import { openFile } from '../helpers';
+import { openFile, scrollTo } from '../helpers';
 import { socialMediaLinks } from '../constants';
 import resume from '../assets/files/resume.pdf';
 
 export default function Hero() {
-  const scrollDown = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: 'smooth'
-    });
-  };
-
   return (
     <div className="vea-banner vea-banner-2">
       <div className="container">
@@ -48,7 +41,7 @@ export default function Hero() {
       </div>
       <div
         className="scroll-dwn d-flex justify-content-center align-items-center"
-        onClick={() => scrollDown()}
+        onClick={() => scrollTo('top', window.innerHeight)}
       >
         <i className="fa-solid fa-arrow-down fa-2x"></i>
       </div>
