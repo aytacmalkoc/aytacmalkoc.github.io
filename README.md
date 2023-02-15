@@ -1,4 +1,6 @@
-# My Personal Web Page
+# [ARCHIVED] My Personal Web Page
+
+This repository is archived. Please see [aytacmalkoc/homepage](https://github.com/aytacmalkoc/homepage) for the new version.
 
 This repository contains the source codes of my personal web page. Available as open source subject to license terms. Please contribute to fix bugs and improve the application.
 
